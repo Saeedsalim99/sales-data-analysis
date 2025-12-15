@@ -1,0 +1,14 @@
+START
+Input number_of_products
+Input sales_threshold
+
+FOR each product from 1 to number_of_products
+    Input product_sales
+
+    IF product_sales >= sales_threshold THEN
+        Print "Best-Selling Product"
+    ELSE
+        Print "Low-Selling Product"
+    ENDIF
+END FOR
+STOP
