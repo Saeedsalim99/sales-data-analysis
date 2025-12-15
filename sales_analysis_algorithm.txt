@@ -2,7 +2,7 @@ START
 Input number_of_products
 Input sales_threshold
 
-FOR each product from 1 to number_of_products
+FOR each product from 1 to number_of_products+1
     Input product_sales
 
     IF product_sales >= sales_threshold THEN
